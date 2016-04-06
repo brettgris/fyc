@@ -1,0 +1,124 @@
+:root{
+	--font-family: "Museo", Helvetica, Arial, sans-serif;
+}
+
+/************************ BODY ********************/
+
+body{
+	color: var(--copy-color);
+	font-family: var(--font-family);
+	letter-spacing: 1.1px;
+}
+
+/************************ HEADERS ********************/
+h1{
+	color: var(--highlight-color);
+
+	.header &{
+		font-size: 24px;
+	}
+}
+
+h2{
+	color: var(--highlight-color);
+
+	font-weight:lighter !important;
+}
+
+h3{
+	color: var(--highlight-color);
+	
+	.showlist & {
+		font-weight:lighter !important;
+	}
+}
+
+h4{
+	font-weight: 100;
+	color: var(--copy-color);
+}
+
+h5{
+	color: var(--copy-color);
+}
+
+h6{
+	color: var(--copy-color);
+}
+
+/************************ COPY ********************/
+
+p{
+	font-weight:100;
+	font-size:12px;
+	color: var(--copy-color);
+	
+	margin: 0;
+	padding: 0;
+
+	@media (--under-tablet) {
+		font-size: 10px !important;
+	}
+}
+
+.center{
+	text-align: center;
+}
+
+.highlight{
+	font-weight: normal;
+	color: var(--highlight-color);
+}
+
+/************************ LINKS ********************/
+a{
+	color: var(--link-color);
+	text-decoration: none !important;
+
+	&:hover, &:active{
+		color: var(--link-hover);
+	}
+
+	&:visited{
+		color: var(--link-color);
+	}
+}
+
+/************************ QUOTE STYLING ********************/
+.quote {
+	text-align:center;
+	font-weight:lighter;
+
+	@media (--under-tablet) {
+		font-size: 16px !important;
+	}
+
+	h2{
+		font-size: 24px !important;
+		margin-top: 10px;
+											
+		@media (--under-tablet) {
+			font-size: 21px !important;
+		}
+	}
+
+	span{
+		width: 95% !important;
+		color: #ffffff;
+
+		&.quoter {
+			display:block;
+			padding-top: 3px;
+		}
+	}
+}
+
+/************************ FOOTER ********************/
+p.copyright{
+	font-size: 10px;
+	color: var(--copyright-color);
+
+	@media (--under-tablet) {
+		font-size: 7px !important;
+	}
+}

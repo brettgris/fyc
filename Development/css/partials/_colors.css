@@ -1,0 +1,41 @@
+:root{
+	--imgPath: ../img/;
+
+	/************************ SITE COLORS ********************/
+	--black: #0a0906;
+	--white: #fff;
+	--light-grey: #ccc;
+	--med-grey: #666;
+
+	/************************ GLOBALS ********************/
+	--body-bg: url( var(--imgPath)background.jpg) var(--black) top right no-repeat;
+
+	/************************ TYPE ********************/
+	--copy-color: var(--light-grey);
+	--highlight-color: var(--white);
+	--link-color: var(--light-grey);
+	--link-hover: var(--light-grey);
+
+	/************************ HEADER ********************/
+	--logo-background: url( var(--imgPath)logo.png) center left no-repeat;
+
+	/************************ LOGIN ********************/
+	--login-background: rgba(0,0,0,.8);
+
+	/************************ SHOW LIST ********************/
+	--quote-background: rgba(0,0,0,.8);
+
+	/************************ SHOW PAGE ********************/
+	--play-btn-background: url( var(--imgPath)playbtn.svg) left top no-repeat;
+	--video-background: #000000;
+
+	--next-arrow-background: url(var(--imgPath)next.png) left top no-repeat;
+	--prev-arrow-background: url(var(--imgPath)prev.png) left top no-repeat;
+
+	/************************ FOOTER ********************/
+	--copyright-color: var(--med-grey);
+	
+	--menu-btn-color: var(--light-grey);
+	--menu-color: rgba(0,0,0,.9);
+
+}

@@ -1,0 +1,6 @@
+@custom-media --body-background-resize (max-width: 970px);
+
+@custom-media --medium (max-width: 1200px);
+@custom-media --small (max-width: 992px);
+
+@custom-media --under-tablet (max-width: 767px);

@@ -1,0 +1,50 @@
+:root{
+	/************************ HEADER ********************/
+	--header-height: 100px;
+	--logo-width: 125px;
+	--logo-width-responsive: 90px;
+	--header-type-margin: 38px 0 0 10px;
+	
+	/************************ MENU ********************/
+	--menu-height: 2000px;
+	--menu-width: 300px;
+	
+	--menu-btn-width: 40px;
+	--menu-btn-height: 50px;
+	
+	--menu-btn-top: calc( (var(--header-height) - var(--menu-btn-height) )/2 );
+	
+	--menu-btn-span: 3px;
+	--menu-btn-span-space: 10px;
+	
+	--menu-btn-span-top: calc( ( var(--menu-btn-height)-(3*var(--menu-btn-span))-(2*var(--menu-btn-span-space))) /2);
+
+	--menu-btn-right: 15px;
+	--menu-list-list: 15px;
+
+	/************************ SHOWLIST ********************/
+	--showlist-show-margin-bottom: 20px;
+	--showlist-responsive-percent: 63.85%;
+
+	/************************ SHOWPAGE ********************/
+	--section-margin-top: 15px;
+
+	--award-item-height: 60px;
+	
+	--video-height: 350px;
+
+	--episode-height: 300px;
+	--episode-spacing: 15px;
+
+	--arrow-width: 22px;
+	--arrow-height: 35px; 
+	--arrow-margin: 5px;
+
+	--arrow-top-large: calc(243/2-var(--arrow-height)/2);
+	--arrow-top-medium: calc(200/2-var(--arrow-height)/2);
+	--arrow-top-small: calc(151/2-var(--arrow-height)/2);
+
+	/************************ FOOTER ********************/
+	--footer-margin-top: 50px;
+	
+}

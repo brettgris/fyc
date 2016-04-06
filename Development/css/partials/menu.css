@@ -1,0 +1,93 @@
+.menu{
+	position:fixed;
+	width: var(--menu-width);
+	height:100%;
+	right:0;
+	top: 0;
+	z-index:1;
+	overflow:hidden;
+	pointer-events: none;
+	height: var(--header-height);
+
+	transition: height .5s ease-out;
+
+	@media (--under-tablet) {
+		width: 100% !important;
+	}
+
+	.menu-wrapper{
+		height: var(--header-height);
+		position:absolute;
+		width: var(--menu-width);
+		top:0;
+		left:0;
+
+		@media (--under-tablet) {
+			width: 100% !important;
+		}
+
+		.btn-wrapper{
+			height: var(--header-height);
+			position:absolute;
+			z-index:2;
+			width:100%;
+			left:0;
+
+			.menu-btn{
+				margin-top: var(--menu-btn-top);
+				height: var(--menu-btn-height);
+				width: var(--menu-btn-width);
+				pointer-events: auto;
+				cursor: pointer;
+				
+				position:absolute;
+				top: var(--menu-btn-span-top);
+				right: var(--menu-btn-right);
+
+				span{
+					display:block;
+					background: var(--menu-btn-color);
+					height: var(--menu-btn-span);
+					margin-bottom: var(--menu-btn-span-space);
+				}
+			}
+		}
+
+		.background{
+			height: 0px;
+			background: var(--menu-color);
+			position:absolute;
+			top:0;
+			left: 0;
+			width:100%;
+			overflow:hidden;
+			
+			transition: height .5s ease-out;
+
+			.list{
+				position:absolute;
+				pointer-events: auto;
+				cursor: pointer;
+			
+				top: var(--header-height);
+				left: var(--menu-list-list);
+				z-index: 3;
+
+				@media (--under-tablet) {
+					top: 0 !important;
+				}
+			}
+		}
+	}
+
+	&.visible{
+		height:100%;
+		overflow:hidden;
+
+		.menu-wrapper{
+			.background{
+				height: var(--menu-height);
+			}
+		}
+	}
+}

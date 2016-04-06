@@ -1,0 +1,434 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css";
+@font-face{
+    font-family: 'Museo';
+    src: url('../fonts/MuseoSansW00-500.eot');
+    src: url('../fonts/MuseoSansW00-500.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/MuseoSansW00-500.svg#Museo Sans W00 500') format('svg'), 
+    	 url('../fonts/MuseoSansW00-500.woff') format('woff'), 
+    	 url('../fonts/MuseoSansW00-500.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Museo';
+    src: url('../fonts/MuseoSansW00-100.eot');
+    src: url('../fonts/MuseoSansW00-100.eot?#iefix') format('embedded-opentype'), 
+         url('../fonts/MuseoSansW00-100.svg#Museo Sans W00 100') format('svg'), 
+    	 url('../fonts/MuseoSansW00-100.woff') format('woff'), 
+    	 url('../fonts/MuseoSansW00-100.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+/************************  VARIABLES  ************************/
+:root{
+
+    /************************ HEADER ********************/
+
+    /************************ MENU ********************/
+
+    /************************ SHOWLIST ********************/
+
+    /************************ SHOWPAGE ********************/
+
+    /************************ FOOTER ********************/
+}
+:root{
+
+    /************************ SITE COLORS ********************/
+
+    /************************ GLOBALS ********************/
+
+    /************************ TYPE ********************/
+
+    /************************ HEADER ********************/
+
+    /************************ LOGIN ********************/
+
+    /************************ SHOW LIST ********************/
+
+    /************************ SHOW PAGE ********************/
+
+    /************************ FOOTER ********************/
+}
+/*************BORDERS******************/
+/************************ BODY ********************/
+body{
+    color: #ccc;
+    font-family: "Museo", Helvetica, Arial, sans-serif;
+    letter-spacing: 1.1px;
+}
+/************************ HEADERS ********************/
+h1{
+    color: #fff;
+}
+.header h1{
+    font-size: 24px;
+}
+h2{
+    color: #fff;
+    font-weight: lighter !important;
+}
+h3{
+    color: #fff;
+}
+.showlist h3{
+    font-weight: lighter !important;
+}
+h4{
+    font-weight: 100;
+    color: #ccc;
+}
+h5{
+    color: #ccc;
+}
+h6{
+    color: #ccc;
+}
+/************************ COPY ********************/
+p{
+    font-weight: 100;
+    font-size: 12px;
+    color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+.center{
+    text-align: center;
+}
+.highlight{
+    font-weight: normal;
+    color: #fff;
+}
+/************************ LINKS ********************/
+a{
+    color: #ccc;
+    text-decoration: none !important;
+}
+a:hover, a:active{
+    color: #ccc;
+}
+a:visited{
+    color: #ccc;
+}
+/************************ QUOTE STYLING ********************/
+.quote{
+    text-align: center;
+    font-weight: lighter;
+}
+.quote h2{
+    font-size: 24px !important;
+    margin-top: 10px;
+}
+.quote span{
+    width: 95% !important;
+    color: #ffffff;
+}
+.quote span.quoter{
+    display: block;
+    padding-top: 3px;
+}
+/************************ FOOTER ********************/
+p.copyright{
+    font-size: 10px;
+    color: #666;
+}
+
+/************************  GLOBALS  ************************/
+/************************ GLOBALS ********************/
+body{
+    background: url( ../img/background.jpg) #0a0906 top right no-repeat;
+    background-size: cover;
+}
+.clear{
+    clear: both;
+}
+
+/************************  PARTS  ************************/
+.header{
+    height: 100px;
+    z-index: -2;
+}
+.header .logo{
+    background: url( ../img/logo.png) center left no-repeat;
+    width: 125px;
+    height: 100px;
+    display: inline-block;
+    float: left;
+}
+.header h1{
+    display: inline-block;
+    float: left;
+    margin: 38px 0 0 10px;
+}
+.showpage .showheader .content .title-wrapper .title .play{
+    display: inline-block;
+    font-size: 24px;
+    margin: 6px 0 0 25px;
+    padding-left: 30px;
+    background: url( ../img/playbtn.svg) left top no-repeat;
+    cursor: pointer;
+}
+.showpage .showheader .content .awards{
+    margin-top: 15px;
+}
+.showpage .showheader .content .awards .award-item{
+    height: 60px;
+}
+.showpage .showheader .videoplayer .videocode{
+    height: 350px;
+    background: #000000;
+}
+.showpage .episodes{
+    margin-top: 15px;
+    z-index: 2;
+}
+.showpage .episodes .rowContainer{
+    clear: both;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    height: 300px;
+}
+.showpage .episodes .rowContainer .row{
+    height: 300px;
+    clear: both;
+    width: 20000px;
+    padding-left: 15px;
+    position: absolute;
+    top: 0px;
+    -webkit-transition: left .5s ease-out;
+    transition: left .5s ease-out;
+}
+.showpage .episodes .rowContainer .row .episode{
+    display: block;
+    float: left;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.showpage .episodes .rowContainer .row .episode .wrapper .img{
+    box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+}
+.showpage .episodes .rowContainer .row .episode .wrapper:hover img{
+    opacity: .8;
+}
+.showpage .episodes .rowContainer .arrowbtn{
+    position: absolute;
+    height: 35px;
+    width: 22px;
+    top: 104px;
+}
+.showpage .episodes .rowContainer .arrowbtn.prev{
+    right: 20px;
+    background: url(../img/next.png) left top no-repeat;
+    background-size: 22px 35px;
+}
+.showpage .episodes .rowContainer .arrowbtn.next{
+    left: 5px;
+    background: url(../img/prev.png) left top no-repeat;
+    background-size: 22px 35px;
+}
+.footer{
+    margin-top: 50px;
+}
+.login{
+    position: fixed;
+    background: rgba(0,0,0,.8);
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    top: -100%;
+    left: 0;
+    -webkit-transition: top .3s ease-out;
+    transition: top .3s ease-out;
+}
+.login.visible{
+    top: 0%;
+}
+.login.visible .loginrow{
+    position: absolute;
+    width: 100%;
+    left: 50% !important;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+    pointer-events: none;
+    height: 100px;
+    -webkit-transition: height .5s ease-out;
+    transition: height .5s ease-out;
+}
+.menu .menu-wrapper{
+    height: 100px;
+    position: absolute;
+    width: 300px;
+    top: 0;
+    left: 0;
+}
+.menu .menu-wrapper .btn-wrapper{
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    left: 0;
+}
+.menu .menu-wrapper .btn-wrapper .menu-btn{
+    margin-top: 25px;
+    height: 50px;
+    width: 40px;
+    pointer-events: auto;
+    cursor: pointer;
+    position: absolute;
+    top: 10.5px;
+    right: 15px;
+}
+.menu .menu-wrapper .btn-wrapper .menu-btn span{
+    display: block;
+    background: #ccc;
+    height: 3px;
+    margin-bottom: 10px;
+}
+.menu .menu-wrapper .background{
+    height: 0px;
+    background: rgba(0,0,0,.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    -webkit-transition: height .5s ease-out;
+    transition: height .5s ease-out;
+}
+.menu .menu-wrapper .background .list{
+    position: absolute;
+    pointer-events: auto;
+    cursor: pointer;
+    top: 100px;
+    left: 15px;
+    z-index: 3;
+}
+.menu.visible{
+    height: 100%;
+    overflow: hidden;
+}
+.menu.visible .menu-wrapper .background{
+    height: 2000px;
+}
+.showlist .category h3{
+    padding: 0;
+    margin: 0;
+}
+.showlist .category .shows .show{
+    height: auto;
+    margin-bottom: 20px;
+    overflow: hidden !important;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+    background: no-repeat center center/cover;
+    padding: 0;
+    float: left;
+}
+.showlist .category .shows .show a{
+    display: block;
+    padding-top: 63.85%;
+}
+.showlist .category .shows .show a .quote{
+    display: none;
+    height: auto;
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.8);
+    top: 0;
+    left: 0;
+}
+.showlist .category .shows .show:hover .quote{
+    display: block;
+}
+@media (max-width: 767px){
+    p{
+        font-size: 10px !important;
+    }
+    .quote{
+        font-size: 16px !important;
+    }
+    .quote h2{
+        font-size: 21px !important;
+    }
+    p.copyright{
+        font-size: 7px !important;
+    }
+    .header .logo{
+        width: 90px;
+        background-size: 100%;
+    }
+    .showpage .showheader .content .title-wrapper .title .play{
+        display: block;
+        margin: 8px 0 0 0 !important;
+    }
+    .showpage .episodes .rowContainer{
+        width: 100% !important;
+        height: inherit;
+    }
+    .showpage .episodes .rowContainer .row{
+        width: 100% !important;
+        position: relative;
+        height: inherit;
+        left: 0 !important;
+    }
+    .showpage .episodes .rowContainer .row .episode{
+        width: 100% !important;
+        margin: 0;
+    }
+    .showpage .episodes .rowContainer .row .episode .wrapper .img{
+        display: none !important;
+    }
+    .showpage .episodes .rowContainer .arrowbtn{
+        display: none;
+    }
+    .menu{
+        width: 100% !important;
+    }
+    .menu .menu-wrapper{
+        width: 100% !important;
+    }
+    .menu .menu-wrapper .background .list{
+        top: 0 !important;
+    }
+    .showlist{
+        margin: 0;
+        padding: 0;
+    }
+    .showlist .category{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .showlist .category .shows .show a .quote{
+        padding-top: 15%;
+    }
+}
+@media (max-width: 970px){
+    body{
+        background-size: 100% auto;
+    }
+}
+@media (max-width: 1200px){
+    .showpage .episodes .rowContainer .arrowbtn{
+        top: 82.5px;
+    }
+}
+@media (max-width: 992px){
+    .showpage .episodes .rowContainer .arrowbtn{
+        top: 58px;
+    }
+}

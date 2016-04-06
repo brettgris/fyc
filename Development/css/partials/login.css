@@ -1,0 +1,26 @@
+.login{
+	position: fixed;
+	background: var(--login-background);
+	width:100%;
+	height: 100%;
+	z-index: 3;
+	top: -100%;
+	left: 0;
+
+	transition: top .3s ease-out;
+
+	&.visible{
+		top: 0%;
+
+		.loginrow{
+			position: absolute;
+			width: 100%;
+			left: 50% !important;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			margin: 0;
+			padding: 0;
+		}
+
+	}
+}

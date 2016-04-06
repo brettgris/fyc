@@ -1,0 +1,14 @@
+/************************ GLOBALS ********************/
+body{
+	background: var(--body-bg);
+	background-size: cover;
+
+	@media (--body-background-resize) {
+		background-size: 100% auto;
+	}
+}
+
+.clear{
+	clear:both;
+}
+

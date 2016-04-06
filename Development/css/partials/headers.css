@@ -1,0 +1,23 @@
+.header{
+	height: var(--header-height);
+	z-index: -2;
+	
+	.logo{
+		background: var(--logo-background);
+		width: var(--logo-width);
+		height: var(--header-height);
+		display: inline-block;
+		float:left;
+
+		@media (--under-tablet) {
+			width: var(--logo-width-responsive);
+			background-size: 100%;
+		}
+	}
+	
+	h1{
+		display: inline-block;
+		float: left;
+		margin: var(--header-type-margin);
+	}
+}

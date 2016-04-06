@@ -1,0 +1,138 @@
+.showpage{
+	.showheader{
+		.content{
+			.title-wrapper{
+				.title{
+					.play{
+						display:inline-block;
+					    font-size: 24px;
+					   	margin: 6px 0 0 25px;
+
+					    padding-left: 30px;
+					    background: var(--play-btn-background);
+					    cursor: pointer;
+
+				    	@media (--under-tablet) {
+				    		display: block;
+				    		margin: 8px 0 0 0 !important;
+						} 
+					}
+				}
+			}
+
+			.awards{
+				margin-top: var(--section-margin-top);
+
+				.award-item{
+					height: var(--award-item-height);
+				}
+			}
+		}
+
+		.videoplayer{
+			
+			.videocode{
+				height: var(--video-height);
+				background: var(--video-background);
+			}
+		}
+	}
+	
+	.episodes{
+		margin-top: var(--section-margin-top);
+		z-index: 2;
+		
+		.rowContainer{
+			clear:both;
+			overflow:hidden;
+			width: 100%;
+			position: relative;
+			height: var(--episode-height);
+
+			@media (--under-tablet) {
+				width: 100% !important;
+				height: inherit;
+			}
+
+			.row{
+				height: var(--episode-height);
+				clear: both;
+				width: 20000px;
+				padding-left: 15px;
+				position: absolute;
+				top: 0px;
+				
+				transition: left .5s ease-out;
+
+				@media (--under-tablet) {
+					width: 100% !important;
+					position:relative;
+					height: inherit;
+					left: 0 !important;
+				}
+
+				.episode{
+					display: block;
+					float: left;
+					margin-right: var(--episode-spacing);
+					cursor: pointer;
+					
+					@media (--under-tablet) {
+						width: 100% !important;
+						margin: 0;
+					}
+					
+					.wrapper{
+						.img {
+							box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+
+							@media (--under-tablet) {
+								display: none !important;
+							}
+						}
+
+						&:hover{
+							img{
+								opacity: .8;
+							}
+						}
+					}
+				}
+			}
+
+			.arrowbtn{
+				position: absolute;
+				height: var(--arrow-height);
+				width: var(--arrow-width);
+				top: var(--arrow-top-large);
+
+				&.prev{
+					right: calc( var(--episode-spacing)+var(--arrow-margin) );
+					background: var(--next-arrow-background);
+					background-size: var(--arrow-width) var(--arrow-height);
+				}
+
+				&.next{
+					left: var(--arrow-margin);
+					background: var(--prev-arrow-background);
+					background-size: var(--arrow-width) var(--arrow-height);
+				}
+				
+				@media (--medium) {
+					top: var(--arrow-top-medium);
+				}
+
+				@media (--small) {
+					top: var(--arrow-top-small);
+				}
+
+				@media (--under-tablet) {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+
+
