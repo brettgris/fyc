@@ -31,11 +31,7 @@ gulp.task('postcss', function() {
     var processors = [
         require('precss'),
         require('postcss-cssnext'),
-        // require('autoprefixer')({
-        //     browsers: 'last 2 versions'
-        // }),
         require('css-mqpacker')
-        //,require('cssnano')
     ];
 
     return gulp.src('Development/css/compile/*.css')
@@ -58,9 +54,15 @@ gulp.task('react', function () {
         .pipe(gulp.dest('Production/js'));
 });
 
+gulp.task( 'json', function(){
+    return gulp.src('Development/data/*.json')
+        .pipe(gulp.dest('Production/data'));
+});
+
 // Watch Files For Changes
 gulp.task('watch', function() {
     gulp.watch('Development/jade/**/*.jade', ['jade']);
+    gulp.watch('Development/data/*.json', ['json']);
     gulp.watch('Development/react/**/*.jsx', ['react']);
     gulp.watch('Development/css/**/*.css', ['postcss']);
     gulp.watch(['Production/**/*']).on('change', browserSync.reload);
@@ -77,4 +79,4 @@ gulp.task('sync', function() {
 });
 
 // Default Task
-gulp.task('default', ['jade', 'postcss', 'react', 'watch', 'sync']);
+gulp.task('default', ['jade', 'postcss', 'json', 'react', 'watch', 'sync']);

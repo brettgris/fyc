@@ -1,0 +1,918 @@
+{
+	"guildss": [{
+		"name": "Art Directors Guild",
+		"safename": "artdirectors"
+	}, {
+		"name": "Cinema Audio Society",
+		"safename": "cinemaaudio"
+	}, {
+		"name": "Make-Up Artist Hair Stylists Guild",
+		"safename": "makeuphair"
+	}, {
+		"name": "Costume Designers Guild",
+		"safename": "costume"
+	}],
+	"guilds":[{
+		"name": "Emmy",
+		"safename": "emmys"
+	}],
+	"categories": [{
+		"name": "Drama",
+		"safename": "drama",
+		"class": "col-sm-12",
+		"showclass": "col-md-3 col-sm-6 col-xs-12"
+	},{
+		"name": "Comedy",
+		"safename": "comedy",
+		"class": "col-sm-12 clear",
+		"showclass": "col-md-3 col-sm-6 col-xs-12"
+	},{
+		"name": "Limited Series",
+		"safename": "limited",
+		"class": "col-md-6 col-sm-12 clear",
+		"showclass": "col-md-6 col-sm-6 col-xs-12"
+	},{
+		"name": "Movie",
+		"safename": "movie",
+		"class": "col-md-3 col-md-offset-3 col-sm-12",
+		"showclass": "col-md-12 col-sm-6 col-xs-12"
+	}],
+	"shows": [{
+		"name": "Black Sails",
+		"safename": "blacksails",
+		"playlist": "4797022722001",
+		"copyright": "Black Sails &copy; 2016 STARZ Entertainment, LLC. All Rights Reserved.",
+		"details": "In the wake of the burning of Charles Town, all the New World lives in fear of Captain Flint. But when his campaign of terror crosses over into madness, and new threats emerge to challenge his supremacy, it falls to John Silver to locate the man within the monster, before Flint’s war against the world consumes them all. ",
+		"quote":"'Staggering brilliant'",
+		"quoter":"-Monstersandcritics.com",
+		"guilds": ["artdirectors", "cinemaaudio", "makeuphair", "costume", "emmys"],
+		"category":"drama",
+		"awards":{
+			"emmys":[
+			{
+				"title": "Outstanding Sound Editing For A Series",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Cinematography For A Single-Camera Series",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Music Composition For A Series (Dramatic Score)",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Production Design For A Narrative Period Program ( One Hour Or More)",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Stunt Coordination For A Drama Series, Limited Series Or Movie",
+				"desc": "Award Name."
+			
+			}]
+			
+		},
+		"episodes":[
+			{
+				"number": "301",
+				"name": "XIX.",
+				"synopsis": "Flint and his crew wage war against the world. Eleanor receives an offer of clemency. Vane objects to Rackham's methods. One of Nassau's most notorious returns.",
+				"id": "4758961990001"
+			},{
+				"number": "302",
+				"name": "XX.",
+				"synopsis": "The Walrus crew battles the elements. Teach and Rackham have a disagreement. Rogers and Eleanor set terms for their partnership. Bonny fears for her future with Max.",
+				"id":"4758945746001"
+			},{
+				"number": "303",
+				"name": "XXI.",
+				"synopsis": "Stranded at sea, Flint pushes Silver to his limit. As Nassau prepares to repel an invasion, Rackham takes the reins, while Max gets her house in order. To stave off defeat, Vane makes a difficult choice."
+			},{
+				"number": "304",
+				"name": "XXII.",
+				"synopsis": "Civilization returns to Nassau, and sets its sights on Vane. Flint, Silver and Billy encounter a new enemy. Rackham takes a stand against his crew. Scott finds his place in the new regime."
+			},{
+				"number": "305",
+				"name": "XXIII.",
+				"synopsis": "Facing certain death, Silver pushes Flint to take action. Teach shows Vane a way forward. A new threat puts Eleanor and Rogers on notice. Max makes her play."
+			},{
+				"number": "306",
+				"name": "XXIV.",
+				"synopsis": "Flint challenges Teach over the future of piracy. Rogers makes an arrest. Rackham finds new purpose. Madi comes to Silver's aid."
+			},{
+				"number": "307",
+				"name": "XXV.",
+				"synopsis": "Flint and Silver return to Nassau, and a legend is born. A change in terms put Rackham and Bonny in jeopardy. Vane's mission evolves. Eleanor confides in Rogers."
+			},{
+				"number": "308",
+				"name": "XXVI.",
+				"synopsis": "Rogers comes under attack while moving a prisoner. Violence erupts on the Walrus. Silver and Madi are put to a test. Billy sees a new role for himself in the coming battle."
+			},{
+				"number": "309",
+				"name": "XXVII.",
+				"synopsis": "Eleanor puts everything on the line to save Rogers. Billy recruits allies. Flint and Silver prepare for war."
+			},{
+				"number": "310",
+				"name": "XXVIII.",
+				"synopsis": "Rogers and his forces come for the pirates. Rackham and Bonny face impossible odds. Silver demands answers from Flint. Billy crowns a king."
+			}
+			
+		]
+		}, {
+		"name": "Outlander",
+		"safename": "outlander",
+		"playlist": "4797022723001",
+		"copyright": "Outlander &copy; 2016 Sony Pictures Television Inc. All rights reserved.",
+		"details": "“Outlander” spans the genres of romance, science fiction, history, and adventure as it follows Claire Randall, a married WWII combat nurse who mistakenly falls back in time to 1743. As the season continues, Claire and Jamie's relationship is tested and Claire must reconcile her modern mindset with this 18th century world. ",
+		"quote":"",
+		"guilds": ["artdirectors", "cinemaaudio", "makeuphair", "costume", "emmys"],
+		"category":"drama",
+		"awards":{
+			"emmys":[
+			{
+				"title": "Outstanding Production Design For A Narrative Period Program (One Hour Or More)",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Cinematography For A Single-Camera Series",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Main Title Design",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Motion Design",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Music Composition For A Series (Original Dramatic Score)",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Original Main Title Theme Music",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Sound Editing For A Series",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Special Visual Effects",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Stunt Coordination For A Drama Series, Limited Series Or Movie",
+				"desc": "Award Name."
+			}]
+			
+		},
+		"episodes":[
+			{
+				"number": "101",
+				"name": "Sassenach",
+				"synopsis": "While on her honeymoon, WWII combat nurse Claire Randall is mysteriously transported back to 1743 Scotland, where she is kidnapped by a group of Highlanders - and meets an injured young man named Jamie."
+			},{
+				"number": "102",
+				"name": "Castle Leoch",
+				"synopsis": "Claire is taken to meet the Laird. As suspicions about her grow, Claire befriends the mysterious Geillis Duncan. When the clan discover her medical skills, Claire goes from guest to prisoner."
+			},{
+				"number": "103",
+				"name": "The Way Out",
+				"synopsis": "Claire decides to use her medical skills to aid her escape from Castle Leoch - with Jamie's help, she tends to an ill child. During an evening's entertainment, a story gives Claire hope for her freedom."
+			},{
+				"number": "104",
+				"name": "The Gathering",
+				"synopsis": "As the Castle prepares for The Gathering, Claire plots her escape. But after a dangerous encounter with a drunken Dougal and an unexpected run-in with Jamie, her plans are dashed."
+			},{
+				"number": "105",
+				"name": "Rent",
+				"synopsis": "Claire joins the MacKenzie rent-collecting trip. To her horror, Dougal uses Jamie's scars to gain sympathy for the Jacobite cause. Claire recalls that a defining moment in Scottish history is fast approaching."
+			},{
+				"number": "106",
+				"name": "The Garrison Commander",
+				"synopsis": "Claire's unexpected meeting with a British general turns tense when Captain Jack Randall arrives. Claire finds herself alone with Randall - a dangerous man determined to uncover her secrets."
+			},{
+				"number": "107",
+				"name": "The Wedding",
+				"synopsis": "Claire and Jamie are thrown together in marriage, but as their emotional and physical relationship unfolds, deeper feelings arise. Claire is ultimately torn between two men in two very different times."
+			},{
+				"number": "108",
+				"name": "Both Sides Now",
+				"synopsis": "Frank desperately searches for his missing wife, while Claire tries to come to terms with her new marriage. Claire is faced with an emotional quandry as a life-altering opportunity presents itself."
+			},{
+				"number": "109",
+				"name": "The Reckoning",
+				"synopsis": "Jamie and the Highlanders rescue Claire from Black Jack Randall. Back at the castle, politics threaten to tear Clan MacKenzie apart and Jamie's scorned lover, Laoghaire, attempts to win him back."
+			},{
+				"number": "110",
+				"name": "By The Pricking Of My Thumbs",
+				"synopsis": "Jamie hopes the newly arrived Duke of Sandringham will help lift the price from his head, while Claire attempts to save an abandoned child."
+			},{
+				"number": "111",
+				"name": "The Devil's Mark",
+				"synopsis": "Claire and Geillis are on trial for witchcraft. Jamie manages to rescue Claire, but not before she discovers a secret about Geillis's past."
+			},{
+				"number": "112",
+				"name": "Lallybroch",
+				"synopsis": "Reunited, Claire and Jamie make their way to Lallybroch - Jamie's family home. Reality quickly sets in, and old wounds are reopened between Jamie and his sister, Jenny."
+			},{
+				"number": "113",
+				"name": "The Watch",
+				"synopsis": "Jamie finds himself between a rock and a hard place when a redcoat deserter from his past resurfaces. Claire tends to a laboring Jenny while Jamie and Ian join The Watch, resulting in devastating consequences."
+			},{
+				"number": "114",
+				"name": "The Search",
+				"synopsis": "Claire and Jenny set out to rescue Jamie from his redcoat captors. When Murtagh joins up, they turn to unorthodox tactics to send word to Jamie. When word finally arrives, the news isn't what anyone had hoped."
+			},{
+				"number": "115",
+				"name": "Wentworth Prision",
+				"synopsis": "Jamie awaits his death sentence at Wentworth Prison, while Claire and the Highlanders search for a rescue plan. When Jamie is visited by Black Jack, he realizes there is a fate worse than death."
+			},{
+				"number": "116",
+				"name": "To Ransom A Man's Soul",
+				"synopsis": "A desperate plan manages to free Jamie, but his wounds are more than just physical. At a nearby monastery, Claire attempts to save both Jamie's heart and soul, as his mind lingers on the torture."
+			}
+		]
+	
+	
+	}, {
+		"name": "Power",
+		"safename": "power",
+		"playlist": "4797022724001",
+		"copyright": "Power &copy; 2015 STARZ Entertainment LLC. All rights reserved.",
+		"details": "Season 2 will pick up where the first season left off: James “Ghost” St. Patrick doubling down on his drug business to save his nightclub and his dream of a legitimate future. Ghost’s work troubles pale in comparison to juggling his relationship with his wife, Tasha, and his first love Angela, who’s also an Assistant US Attorney investigating his drug organization.",
+		"quote":"'Dynamic storytelling'",
+		"quoter":"-New York Daily News",
+		"guilds": ["cinemaaudio", "makeuphair", "costume", "emmys"],
+		"category":"drama",
+		"awards":{
+			"emmys":[
+			{
+				"title": "Outstanding Production Design For A Narratie Period Program (One Hour Or More",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Music Composition For A Series (Original Dramatic Score)",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Original Music And Lyrics",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Sound Editing For A Series",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Special Visual Effects In A Supporting Role",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Stunt Coordination For A Drama Series, Limited Series Or Movie",
+				"desc": "Award Name."
+			
+			}]
+			
+		},
+		"episodes":[
+			{
+				"number": "201",
+				"name": "Consequences",
+				"synopsis": "Ghost picks up the pieces at Truth after the botched murder attempt against him, while recommitting to the drug game. Tommy disappears after learning that Angela's with the feds."
+			},{
+				"number": "202",
+				"name": "No Friends on the Street",
+				"synopsis": "Tommy agrees to help Ghost expand the drug business under one condition - Ghost uses Angela to discover what she knows about them. Kanan's release from jail is a surprise for Ghost."
+			},{
+				"number": "203",
+				"name": "Live We're Any Other Couple",
+				"synopsis": "Ghost finally takes Angela to Miami. They live the fantasy of being a couple, but the reality of her investigation destroys it. Back in New York, Tommy and Kanan become close."
+			},{
+				"number": "204",
+				"name": "You're the Only Person I Can Trust",
+				"synopsis": "Ghost fights to retain control over everyone in his life: Tommy, Angela, Tasha and Simon Stern, who is making it impossible for him to win back his club."
+			},{
+				"number": "205",
+				"name": "Who You Are and Who You Want to Be",
+				"synopsis": "Ghost and Tommy work to sell all of the product in time to pay Lobos, unaware that Holly is being questioned by the FBI. With every passing hour, Angela grows closer to the truth."
+			},{
+				"number": "206",
+				"name": "Why Her?",
+				"synopsis": "After learning that Ghost and Jamie are the same man, Angela looks for proof. A new member joins the drug syndicate. Tasha makes a wife's ultimate sacrifice to protect her future."
+			},{
+				"number": "207",
+				"name": "You're Not the Man",
+				"synopsis": "Tommy's on edge about Holly's disappearance after talking with the feds. Ghost and Tasha work to rein him in. Angela seems to believe Ghost when he explains his actions...or does she?"
+			},{
+				"number": "208",
+				"name": "Three Moves Ahead",
+				"synopsis": "Danger closes in on Ghost and Tommy as Lobos fends off a rival drug cartel and the feds. Ghost scrambles to get from underneath Lobos before Angela gets to him first."
+			},{
+				"number": "209",
+				"name": "Time's Up",
+				"synopsis": "Tommy's locked up as Angela and the feds push him to flip on Lobos or spend his life in jail. Ghost works to do the right thing - but the consequences of his actions are steep."
+			},{
+				"number": "210",
+				"name": "Ghost Is Dead",
+				"synopsis": "Bodies from Ghost's organization are dropping left and right, each death inching closer to Ghost and Tommy. Both the threat of Kanan and Angela's investigation are just as lethal."
+			}
+		]
+	}, {
+		"name": "DaVinci's Demons",
+		"safename": "davincis",
+		"playlist": "4797022725001",
+		"copyright": "Da Vinci's Demons &copy; 2016 Tonto Films and Television Limited.",
+		"details": "In a world where thought & faith are controlled, Leonardo da Vinci fights to set knowledge free. The tortured genius defies authority forever changing the fate of mankind. From David S. Goyer, co-writer of the Dark Knight Trilogy.",
+		"quote":"'A sumptuous feast for the eyes'",
+		"quoter":"-Decider.com",
+		"guilds": ["cinemaaudio", "makeuphair", "costume", "emmys"],
+		"category":"drama",
+		"awards":{
+			"emmys":[
+			{
+				"title": "Outstanding Cinematography For A Single-Camera Series",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Music Composition For A Series (Original Dramatic Score)",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Sound Editing For A Series",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Special Visual Effects",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Stunt Coordination For A Drama Series, Limited Series Or Movie",
+				"desc": "Award Name."
+			
+			}]
+			
+		},
+		"episodes":[
+			{
+				"number": "301",
+				"name": "Semper Infidelis",
+				"synopsis": "When the Ottoman Empire storms the city of Otranto, Leonardo and his allies are forced to retreat."
+			},{
+				"number": "302",
+				"name": "Abbadon",
+				"synopsis": "Leo devises an escape from Otranto, but it might be too late for those closest to him."
+			},{
+				"number": "303",
+				"name": "Modus Operandi",
+				"synopsis": "Leo's investigation of a grisly murder threatens to expose the Labyrinth."
+			},{
+				"number": "304",
+				"name": "The Labrys",
+				"synopsis": "As Carlo tries to program Leo to become 'one' with the Labyrinth, Leo escapes into an alternate reality that threatens both his mind and his life."
+			},{
+				"number": "305",
+				"name": "Anima Venator",
+				"synopsis": "Leo's paranoia shuts him off from his friends while Lucrezia finds herself in danger as she searches for a way to make amends for past sins."
+			},{
+				"number": "306",
+				"name": "Liberum Arbitrium",
+				"synopsis": "The Monster of Italy is finally captured but danger still lurks, potentially threatening the upcoming Crusade Festival."
+			},{
+				"number": "307",
+				"name": "Alis Volat Propiis",
+				"synopsis": "Crusade efforts are thwarted when an old nemesis returns to Florence and stands in opposition. Vanessa and Nico question their futures, while Leo struggles to decipher the Turkish armor."
+			},{
+				"number": "308",
+				"name": "La Confessione Della Machina",
+				"synopsis": "While Nico and Zo seek out support for the Crusade from an old foe, Leo is ambushed by the Labyrinth."
+			},{
+				"number": "309",
+				"name": "Angelus Iratissimus",
+				"synopsis": "Leo and Sophia struggle to control the mysterious device they've built. Back in Florence, Riario awaits judgment while Lorenzo and Vanessa take their partnership to the next level."
+			},{
+				"number": "310",
+				"name": "Ira Deorum",
+				"synopsis": "Following the Ottoman army's ambush on Crusage forces, Leo must put his faith in his friends and in himself if they're to have a chance to defeat the Turks."
+			}
+		]
+		}, {
+		"name": "The Girlfriend Experience",
+		"safename": "ges",
+		"playlist": "4797022726001",
+		"copyright": "The Girlfriend Experience &copy; 2015 Transactional Pictures of NY LP. All Rights Reserved.",
+		"details": "Juggling two very different lives, Christine Reade, a second year law student quickly finds herself drawn into “The Girlfriend Experience” world, attracted to the rush of control and intimacy.",
+		"quote":"'Compelling...Electrifying.'",
+		"quoter":"–Vouge",
+		"guilds": ["cinemaaudio", "makeuphair", "costume", "emmys"],
+		"category":"limited",
+		"awards":{
+			"emmys":[
+			{
+				"title": "",
+				"desc": "Award Name."
+			},{
+			
+			"title": "",
+				"desc": "Award Name."
+			},{
+			
+			"title": "",
+				"desc": "Award Name."
+			},{
+			
+			"title": "",
+				"desc": "Award Name."
+			},{
+			
+			"title": "",
+				"desc": "Award Name."
+			},{
+			
+			"title": "",
+				"desc": "Award Name."
+			},{
+			
+			"title": "",
+				"desc": "Award Name."
+			},{
+			
+			"title": "",
+				"desc": "Award Name."
+			},{
+			
+			"title": "",
+				"desc": "Award Name."
+			}]
+			
+		},
+		"episodes":[
+			{
+				"number": "101",
+				"name": "Entry",
+				"synopsis": "Second year law school student Christine Reade secures an internship working with partners David Tellis and Erin Roberts at the prestigious Chicago firm of Kirkland & Allen. When Christine’s classmate, Avery, introduces her to the world of transactional relationships where women provide 'The Girlfriend Experience' -- emotional and sexual relationships at a very high price -- Christine becomes intrigued."
+			},{
+				"number": "102",
+				"name": "A Friend",
+				"synopsis": "Overcoming her initial hesitancy, Christine takes on her first client, enjoying the rush of control. Avery introduces Christine to her booker, Jacqueline, but soon turns jealous of Jacqueline’s interest in her friend. Meanwhile, at Kirkland & Allen, tension grows as one of David’s top clients threatens to seek alternate counsel."
+			},{
+				"number": "103",
+				"name": "Retention",
+				"synopsis": "Concerned by Jacqueline’s level of control and her treatment of Avery, Christine confronts Jacqueline. Avery unexpectedly clears out of Christine’s apartment and Jacqueline sends a clear threat that she isn’t one to be messed with... With his shot at managing partner at risk, David meets with Emery Wright, X.H.P.’s in-house counsel, in an attempt to retain them as a client, but is upstaged by Erin."
+			},{
+				"number": "104",
+				"name": "Crossing the Line",
+				"synopsis": "While Christine faces the challenge of managing her growing roster of GFE clients, she begins a questionable relationship with David. Unexpectedly betrayed by Erin, David’s position at Kirkland is undermined."
+			},{
+				"number": "105",
+				"name": "Insurance",
+				"synopsis": "Christine receives news that her client, Michael, has died suddenly, leaving 'Chelsea Frayne' five hundred thousand dollars. Martin, her lawyer and former client, advises her that she will have to prove that she is Chelsea in order to claim the money – exposing her identity as a GFE. David becomes unsettled by Christine’s emotional detachment and abruptly ends their relationship. He has Christine reassigned at work, in an attempt to distance himself. Christine becomes intent on revenge."
+			},{
+				"number": "106",
+				"name": "Boundaries",
+				"synopsis": "When a playful move elicits an unexpected reaction from Christine, her new client, Jack, is left humiliated. Christine attempts to reassure him, massaging his ego, but when Jack gives her an unexpected present, Christine’s concern that their relationship is crossing boundaries is confirmed. Back at Kirkland & Allen, David is confirmed as managing partner. Christine approaches Erin, now the lead counsel on X.H.P., offering to help, in a ploy to gain access to David’s case files."
+			},{
+				"number": "107",
+				"name": "Access",
+				"synopsis": "As Christine steels herself against any further intrusions from Jack, she grows increasingly suspicious of a new client, Simon Burcher, who has a hidden agenda. At Kirkland & Allen, Christine comes to Kayla’s assistance and gains access to David’s case files."
+			},{
+				"number": "108",
+				"name": "Provocation",
+				"synopsis": "Intent on revenge, Christine confides in Erin, sharing an incriminating recording of David’s collusion with opposing counsel Ben Holgrem. Stunned, Erin promises she won’t make a move unless Christine gives the okay, but Erin has her own motives to protect. Outside of Kirkland, Christine begrudgingly drops her claim to Michael’s estate in order to avoid a charge of prostitution. Jack refuses to give up on their relationship and corners Christine at her law school, forcing Christine to send a message through a friend of his that she’s considering legal action."
+			},{
+				"number": "109",
+				"name": "Blindsided",
+				"synopsis": "A mysterious video emerges at Kirkland that puts everyone at risk of being exposed. Blindsided by the content, Christine panics. Or so it seems... Her motives seem more unclear than ever…"
+			},{
+				"number": "110",
+				"name": "Available",
+				"synopsis": "After her humiliating experience at Kirkland, Christine creates a new online profile as “Amanda Hayes,” offering the complete girlfriend experience. She flies to Toronto to expand her client base, but when her lawyer, Martin, calls with disturbing news, she is forced to cut her stay short."
+				
+			},{
+				"number": "111",
+				"name": "Fabrication",
+				"synopsis": "Back in Chicago, Christine goes on the offensive. She threatens to file suit against Kirkland & Allen, in an attempt to force a settlement, while exploring more anonymous ways to service her GFE clients. Meanwhile, David is forced to face the consequences of his actions."
+				},{
+				"number": "112",
+				"name": "Home",
+				"synopsis": "After the scandal and weeks of avoiding her family, Christine decides to go home for her parents’ 30th wedding anniversary. They welcome her with bitter open arms. Christine’s visit home reaffirms who she really wants to be."
+				},{
+				"number": "113",
+				"name": "Seperation",
+				"synopsis": "With no plans to return to law school, Christine breaks with her family and her past, in favor of her profession as a GFE provider. She is in complete control."
+				}
+		]
+		}, {
+		"name": "Flesh & Bone",
+		"safename": "fb",
+		"playlist": "4797022727001",
+		"copyright": "Flesh and Bone &copy; 2015 Starz Entertainment, LLC. All Rights Reserved.",
+		"details": "This dark and gritty series follows a young dancer, Claire, as she joins a prestigious New York City ballet company, and encounters the glamour and dysfunction of the ballet world",
+		"quote":"'Breath-stopping beauty...captures something mind-blowing'",
+		"quoter":"-The Wall Street Journal",
+		"guilds": ["cinemaaudio", "makeuphair", "costume", "emmys"],
+		"category":"limited",
+		"awards":{
+			"emmys":[
+			{
+				"title": "Outstanding Cinematography For A Limited Series or Movie",
+				"desc": ""
+			},{
+			
+			"title": "Outstanding Choreography",
+				"desc": ""
+			},{
+			
+			"title": "Outstanding Main Title Design",
+				"desc": ""
+			},{
+			
+			"title": "Outstanding Motion Design",
+				"desc": ""
+			},{
+			
+			"title": "Outstanding Original Main Title Theme Music",
+				"desc": ""
+			},{
+			
+			"title": "Outstanding Music Direction",
+				"desc": ""
+			},{
+			
+			"title": "Outstanding Original Music and Lyrics",
+				"desc": ""
+			},{
+			
+			"title": "Outstanding Music Composition For A Limited Series, Movie Or A Special (Original Dramatic Score)",
+				"desc": ""
+			},{
+			
+			"title": "Outstanding Sound Editing For A Limited Series, Movie Or A Special",
+				"desc": ""
+			},{
+			
+			"title": "Outstanding Sound Editing For A Limited Series, Movie Or A Special",
+				"desc": ""
+			}]
+			
+		},
+		"episodes":[
+			{
+				"number": "101",
+				"name": "Bulling Through",
+				"synopsis": "Temporarily escaping her abusive and troubled past, Claire gains entry into New York City's prestigious American Ballet Company where she finds new opportunities and new enemies."
+			},{
+				"number": "102",
+				"name": "Cannon Fodder",
+				"synopsis": "Claire attempts to sever ties with her brother, but he comes looking for her. Paul engages a cutting-edge choreographer. Aging prima ballerina Kiira plots to stay in the limelight."
+			},{
+				"number": "103",
+				"name": "Reconnaissance",
+				"synopsis": "The company hits financial jeopardy, but the show must go on. Choreographer Toni inspires the dancers and irks Paul. Claire inquires about the strip club. Bryan arrives in New York."
+			},{
+				"number": "104",
+				"name": "Boogie Dark",
+				"synopsis": "Claire tries to expunge Bryan from her New York City life, while foraying deeper into the strip club world. Mia struggles with continued pain, and Ross feels Paul's insecurity."
+			},{
+				"number": "105",
+				"name": "M.I.A",
+				"synopsis": "Claire and Kiira compete to become the face of the ABC season. Mia worries that her eating disorder is doing real damage. Claire gets a better understanding of Sergei's interests."
+			},{
+				"number": "106",
+				"name": "F.U.B.A.R",
+				"synopsis": "Thanksgiving arrives, and Paul's neuroses frays the dancers' nerves. Claire ventures home to see her aililng father and Bryan, who she hasn't seen since their horrifying encounter in New York.."
+			},{
+				"number": "107",
+				"name": "Full Dress",
+				"synopsis": "With opening night fast approaching, Paul faces setbacks that he blames on Toni. Kiira makes a big decision. Romeo's prophecy upsets a deeply insecure Claire."
+			},{
+				"number": "108",
+				"name": "Scorched Earth",
+				"synopsis": "Kiira's decision throws opening night into disarray. Daphne finds herself in the spotlight while Claire rises to artistic transcendence and Romeo's prophecy is revealed."
+			
+			}
+		]
+		}, {
+		"name": "The Dresser",
+		"safename": "dresser",
+		"playlist": "4797022728001",
+		"copyright": "The Dresser &copy; PLAYGROUND TELEVISION UK LIMITED 2015.",
+		"details": "The actors are about to take the stage but the lead, Sir (Anthony Hopkins), is nowhere to be seen; his dresser, Norman (Ian McKellen) must scramble to keep the production alive. “The Dresser” is a wickedly funny and deeply moving story of friendship and loyalty.",
+		"quote":"",
+		"guilds": ["cinemaaudio", "makeuphair", "costume", "emmys"],
+		"category":"movie",
+		
+		"awards":{
+			"emmys":[
+			{
+				"title": "Outstanding Music Direction",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Main Title Design",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Motion Design",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Original Music And Lyrics",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Cinematography For A Limited Series Or Movie",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Music Composition For A Limited Series, Movie Or A Special (Original Dramatic Score)",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Original Main Title Theme Music",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Sound Editing For A Limited Series, Movie Or A Special",
+				"desc": "Award Name."
+		
+			}]
+			
+		},
+		"episodes":[
+			{
+				"number": "101",
+				"name": "The Dresser",
+				"synopsis": "The actors are about to take the stage but the lead, Sir (Anthony Hopkins), is nowhere to be seen; his dresser, Norman (Ian McKellen) must scramble to keep the production alive. “The Dresser” is a wickedly funny and deeply moving story of friendship and loyalty."
+			}
+		]
+		}, {
+		"name": "Survivor's Remorse",
+		"safename": "survivors",
+		"playlist": "4797022729001",
+		"copyright": "Survivors Remorse © 2015 Starz Entertainment, LLC. All rights reserved.",
+		"details": "“Survivor's Remorse” follows Cam Calloway, a basketball phenom trying to balance family with his star status. Cam, his cousin/manager Reggie and the Calloway clan wrestle with fame, love and loyalty.",
+		"quote":"'One of the best-written shows on TV'",
+		"quoter":"-San Francisco Chronicle",
+		"guilds": ["cinemaaudio", "makeuphair", "costume", "emmys"],
+		"category":"comedy",
+		"awards":{
+			"emmys":[
+			{
+				"title": "Outstanding Production Design For A Narrative Series (Half-Hour Or Less)",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Music Composition For A Series (Original Dramatic Score)",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Cinematography For A Single-Camera Series",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Original Music and Lyrics",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Sound Editing For A Series",
+				"desc": "Award Name."
+			
+			}]
+			
+		},
+		"episodes":[
+			{
+				"number": "201",
+				"name": "Grown-Ass Man",
+				"synopsis": "The Calloway's new mansion makes the penthouse look like a one-bedroom. Cam's max deal comes with serious strings attached to owner Jimmy Flaherty, who wants as much time as is contractually allowed."
+			},{
+				"number": "202",
+				"name": "A Time to Punch",
+				"synopsis": "Cam and M-Chuck have always fought but media fallout and scrutiny from a DA about domestic abuse takes them by surprise. Uncle Julius battles with a neighbor whose dog does his business on the driveway."
+			},{
+				"number": "203",
+				"name": "M.V.P",
+				"synopsis": "Cassie rejoins the dating world and her determination to get what she wants sets her on a collision course with Cam. And his checkbook. Reggie meets the strange and brilliant man who made Flaherty all his money."
+			},{
+				"number": "204",
+				"name": "You're the Only Person I Can Trust",
+				"synopsis": "It's Cam's first game back in Boston and the pressure is getting to him...and to Reggie. The family takes a cultural tour of a plantation, where M-Chuck decides to delve into the lingering racial tensions."
+			},{
+				"number": "205",
+				"name": "Homebound",
+				"synopsis": "Reggie meets Jupiter Blackmon, a college prospect headed for the NFL, whose manager rustles up trouble. Reggie sees an opportunity to rep Jupiter. M-Chuck is drawn into the world of a young pregnant girl."
+			},{
+				"number": "206",
+				"name": "The Dagger",
+				"synopsis": "Chen is throwing a gala to launch Cam's shoe but his focus is wooing Cassie. Cam, usually smart about mixing work and romance, is reckless with a reporter. When it goes awry, Reggie tries not to say 'Told ya.'"
+			},{
+				"number": "207",
+				"name": "The Injury",
+				"synopsis": "Just when Cam couldn't be lower, facing a career ending injury, he meets a girl who could be 'the one.' Reggie's life would be easier with only one, as repping Jupiter starts to seem like a fool's errand."
+			},{
+				"number": "208",
+				"name": "The Date",
+				"synopsis": "Smitten with Allison, Cam puts on a magical first date. Uncle Julius learns how the other half lives on a disturbing jaunt with the police and M-Chuck uses her therapy to drive her mother crazy with guilt."
+			},{
+				"number": "209",
+				"name": "Guts",
+				"synopsis": "Jupiter's draft status hangs in the balance so Reggie enlists Missy to tutor him. Missy thinks it'll be a snap but is challenged. Cam and Allison's romance expands, as do Reggie's business prospects."
+			},{
+				"number": "210",
+				"name": "Starts and Stops",
+				"synopsis": "Reggie questions his decision to represent Jupiter, but Cam has no doubt about Allison. He is in love...even more so after Allison declines his expensive gifts. The family experiences a crisis."
+			}
+		]
+		}, {
+		"name": "Ash Vs Evil Dead",
+		"safename": "ashvsevildead",
+		"playlist": "4797022730001",
+		"copyright": "Ash vs Evil Dead &copy; 2016 STARZ Entertainment LLC. All rights reserved.",
+		"details": "Ash vs Evil Dead follows Ash, stock boy, aging lothario and chainsaw-handed monster hunter who spent 30 years avoiding responsibility, and terrors of the Evil Dead.",
+		"quote":"'Hot damn'",
+		"quoter":"-Deadline",
+		"guilds": ["artdirectors", "cinemaaudio", "makeuphair", "emmys"],
+		"category":"comedy",
+		"awards":{
+			"emmys":[
+			{
+				"title": "Outstanding Cinematography For A Single-Camera Series",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Main Title Design",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Motion Design",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Music Composition For A Series (Original Dramatic Score)",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Music Direction",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Original Music and Lyrics",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Main Title Theme Music",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Sound Editing For A Series",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Special Visual Effects",
+				"desc": "Award Name."
+				},{
+			
+			"title": "Outstanding Stunt Coordination For A Comedy Series Or Variety Program",
+				"desc": "Award Name."
+			}]
+			
+		},
+		"episodes":[
+			{
+				"number": "101",
+				"name": "El Jefe",
+				"synopsis": "Ash is baaack! 30 years after his last Deadite fight, badass monster fighter Ash Williams unleashes the Evil in an act of stupidity, bringing Deadite mayhem into his life again."
+			},{
+				"number": "102",
+				"name": "Bait",
+				"synopsis": "Special Agent Fisher is tracking Ash. Pablo gets his first taste of blood in a manic showdown, and a revelation changes Kelly's life forever."
+			},{
+				"number": "103",
+				"name": "Books From Beyond",
+				"synopsis": "A mysterious woman finds the destruction at Kelly's parents' farm. Meanwhile, Ash, Pablo and Kelly continue their quest with the Necronomicon and Fisher finds herself in another terrifying, inexplicable situation."
+			},{
+				"number": "104",
+				"name": "Brujo",
+				"synopsis": "An unlikely alliance is formed. Ash and team follow a new clue but Kelly pays a price."
+			},{
+				"number": "105",
+				"name": "The Host",
+				"synopsis": "Kelly puts the team in jeopardy. Pablo is forced to make a brave move and Ash reveals a new side to his character."
+			},{
+				"number": "106",
+				"name": "The Killer of Killers",
+				"synopsis": "Ash has an awakening. Pablo and Kelly have an ominous discovery."
+			},{
+				"number": "107",
+				"name": "Fire In The Hole",
+				"synopsis": "The team must go to extreme measures to escape a deadly circumstance. Meanwhile, more is revealed of Ruby's mission."
+			},{
+				"number": "108",
+				"name": "Ashes To Ashes",
+				"synopsis": "Ash attempts to end the Evil, but first he must contend with other, more physical nightmares from his past. Fisher faces a horrific change in Ash."
+			},{
+				"number": "109",
+				"name": "Bound In Flesh",
+				"synopsis": "Ash finds himself in a battle with his greatest nemesis. Kelly and Pablo have to decide who to trust."
+			},{
+				"number": "110",
+				"name": "The Dark One",
+				"synopsis": "In a monumental last-ditch attempt to rid the world of the Evil, Ash will be offered a deal that could change him...and mandkind forever."
+			}
+		]
+		}, {
+		"name": "Blunt Talk",
+		"safename": "blunt",
+		"playlist": "4797022731001",
+		"copyright": "Blunt Talk &copy; MRC II DISTRIBUTION COMPANY, LP. ALL RIGHTS RESERVED.",
+		"details": "“Blunt Talk,” follows Walter Blunt, a British import intent on conquering American nightly cable news and his mostly misguided decision-making, on and off the air.",
+		"quote":"'Patrick Stewart Scores'",
+		"quoter":"-New York Post",
+		"guilds": ["cinemaaudio", "makeuphair", "costume", "emmys"],
+		"category":"comedy",
+		"awards":{
+			"emmys":[
+			{
+				"title": "Outstanding Cinematography For A Single-Camera Series",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Main Title Design",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Motion Design",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Music Composition For A Series",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Music Direction",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Original Main Title Theme Music",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Sound Editing For A Series",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Special Visual Effects",
+				"desc": "Award Name."
+			},{
+			
+			"title": "Outstanding Stunt Coordination For A Comedy Series Or Variety Program",
+				"desc": "Award Name."
+			}]
+			
+		},
+		"episodes":[
+			{
+				"number": "101",
+				"name": "I Seem to be Running Out of Dreams for Myself",
+				"synopsis": "After a drunken escapade lands Walter in jail, he must scramble to save his cable news show 'Blunt Talk' from cancellation."
+			},{
+				"number": "102",
+				"name": "I Experience Shame and Anticipate Punishment",
+				"synopsis": "Walter misses an opportunity to cover a storm that could revitalize his career, so his staff concocts a Plan B. Harry must make a personal sacrifice to save Walter's career."
+			},{
+				"number": "103",
+				"name": "All My Relationships End in Pain",
+				"synopsis": "Walter is ordered by the court to attend AA meetings while his staff goes about their peculiar weekends."
+			},{
+				"number": "104",
+				"name": "A Beaver That's Lost It's Mind",
+				"synopsis": "Walter makes a valiant attempt at being a better father to his youngest son, only to be crushed by news that his ex-wife is dating a rock star."
+			},{
+				"number": "105",
+				"name": "The Queen of Hearts",
+				"synopsis": "When a friendly poker game goes awry, Rosalie is forced to book a controversial guest whose message Walter despises. Celia develops a bad habit."
+			},{
+				"number": "106",
+				"name": "Goodnight, My Someone",
+				"synopsis": "When Walter's estranged son returns to LA for a boxing match, Walter aims to make peace with him. Celia gets pulled into the family drama."
+			},{
+				"number": "107",
+				"name": "Meth or No Meth, You Still Gotta Floss",
+				"synopsis": "Walter joins Rosalie on a mission to find her missing husband. Meanwhile, Jim must step into Walter's shoes."
+			},{
+				"number": "108",
+				"name": "Who Kisses So Early in the Morning?",
+				"synopsis": "Celia makes a blunder that unfavorably thrusts Walter back into the public eye."
+			},{
+				"number": "109",
+				"name": "I Brought a Petting Goat!",
+				"synopsis": "Walter throws an epic party to commemorate the 33rd anniversary of the end of the Falklands War."
+			},{
+				"number": "110",
+				"name": "Let's Save Central Florida! Let's Save Midtown!",
+				"synopsis": "Walter visits an unconventional specialist and then bumps a volatile guest with disastrous results."
+			}
+		]
+	}]
+}
